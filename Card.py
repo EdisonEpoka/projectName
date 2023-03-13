@@ -10,3 +10,6 @@ class Card:
 
     def change_Card_Number(self,number):
         self.number=number
+
+    def function_Test_Class(self):
+        pass
