@@ -4,3 +4,6 @@ class Card:
         if number>0 and number<=10 and (color is "black" or color is "red"):
             self.number=number
             self.color=color
+
+    def to_String(self):
+        return (str) self.number + self.color;
