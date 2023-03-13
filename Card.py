@@ -7,3 +7,6 @@ class Card:
 
     def to_String(self):
         return (str) self.number + self.color;
+
+    def change_Card_Number(self,number):
+        self.number=number
