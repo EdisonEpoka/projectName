@@ -7,3 +7,6 @@ class Class:
 
   def newfunction(self):
     pass
+
+  def enroll(self, student):
+    self.students.append(student)
