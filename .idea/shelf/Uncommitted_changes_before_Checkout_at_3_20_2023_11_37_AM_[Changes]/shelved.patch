@@ -1,0 +1,14 @@
+Index: Lecturer.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from Person import Person\r\nclass Lecturer(Person):\r\n  def __init__(self, name, age, mail, startDate):\r\n    super().__init__(name, age, mail)\r\n    self.startDate = startDate\r\n    
+===================================================================
+diff --git a/Lecturer.py b/Lecturer.py
+--- a/Lecturer.py	
++++ b/Lecturer.py	
+@@ -3,4 +3,3 @@
+   def __init__(self, name, age, mail, startDate):
+     super().__init__(name, age, mail)
+     self.startDate = startDate
+-    
+\ No newline at end of file

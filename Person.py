@@ -3,3 +3,6 @@ class Person:
     self.name = name
     self.age = age
     self.mail = mail
+
+  def newFunc(self):
+    pass
