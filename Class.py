@@ -4,3 +4,6 @@ class Class:
     self.year = year
     self.semester = semester
     self.students = students
+
+  def newfunction(self):
+    pass
